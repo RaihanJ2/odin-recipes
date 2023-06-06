@@ -10,9 +10,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-flow: column;
     text-align: center;
     gap: 1rem;
+}
+h1, h2, h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    
 }
 .title{
     font-family: 'Roboto Condensed', sans-serif;
@@ -50,8 +55,17 @@ a{
     background-color: transparent;
     transition: all .25s ease-in-out;
 }
-
 a:hover{
     transform: scale(1.1) translateY(-2px);
     transition: all .25s ease-in-out;
+}
+.list-recipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 10%;
 }
