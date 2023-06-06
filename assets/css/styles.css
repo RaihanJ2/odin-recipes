@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}
+
+body{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.title{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -2px;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: all .25s ease-in-out;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row;
+    gap: 1rem;
+}
+.index-image{
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+}
+.recipes{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    z-index: -1;
+    position: relative;
+    background-color: transparent;
+    transition: all .25s ease-in-out;
+}
+
+a:hover{
+    transform: scale(1.1) translateY(-2px);
+    transition: all .25s ease-in-out;
+}
